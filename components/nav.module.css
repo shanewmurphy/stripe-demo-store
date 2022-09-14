@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.links_container {
+  width: auto;
+}
+
+.links_container ul {
+  list-style: none;
+  padding-left: 0;
+}
+.links_container li {
+  display: inline-flex;
+  padding-right: 30px;
+}
+.links_container li:nth-of-type(2) {
+  margin-left: 30px;
+}
+.nav_cart_container {
+  background-color: lightseagreen;
+}
+.logo_container {
+  width: 145px;
+  height: 30px;
+  background-image: url("/logo_B.svg");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}

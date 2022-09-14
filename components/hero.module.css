@@ -1,0 +1,25 @@
+.container {
+  width: 90vw;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #f5f7fb;
+  margin-top: 25px;
+}
+.container h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #5c5c5c;
+  padding: 50px 0px 0px 50px;
+  margin: 0;
+}
+.container h4 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #5c5c5c;
+  padding: 20px 0px 0px 50px;
+  margin: 0;
+}
+.container span {
+  font-size: 2.5rem;
+  color: #556ad6;
+}
