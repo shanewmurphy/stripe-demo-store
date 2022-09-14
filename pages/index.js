@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Products from "@/components/Products";
 
 import products from "../data/products";
 
@@ -24,29 +25,13 @@ export default function Home() {
         <div>
           <Hero />
         </div>
-        <div>
-          <div className={styles.products_title}>
-            <h2>Trenading Products</h2>
-          </div>
-          <div className={styles.products_grid_container}>
-            {products.map((product) => {
-              const { id, title, image, price } = product;
-              return (
-                <div key={id} className={styles.product_card}>
-                  <div className={styles.card_img_container}>
-                    <Image src={image} alt={title} width={427} height={420} />
-                  </div>
-                  <div>
-                    <h4>{title}</h4>
-                  </div>
-                  <div>
-                    <h5>{price}</h5>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+        <div className={styles.products_title}>
+          <h2>Trenading Products</h2>
         </div>
+        <div>
+          <Products />
+        </div>
+        <div></div>
       </div>
     </div>
   );
