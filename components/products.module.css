@@ -5,7 +5,7 @@
   align-items: center;
   gap: 1rem;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 80px;
 }
 .product_card {
   width: 25vw;
@@ -14,9 +14,9 @@
 .card_img_container {
   display: flex;
   align-items: center;
+  justify-content: center !important;
   width: 25vw;
   margin: 0 auto;
-  background-color: lightgreen;
 }
 .card_img_container img {
   margin: 0 auto;
@@ -47,4 +47,9 @@
 .btn_container button {
   text-align: center;
   margin: 0 auto;
+}
+.checkout_container {
+  width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
