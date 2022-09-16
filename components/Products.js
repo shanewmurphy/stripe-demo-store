@@ -6,7 +6,7 @@ import useCart from "@/hooks/use-cart.js";
 
 import products from "@/data/products.json";
 
-export default function productList() {
+export default function Productlist() {
   const { subtotal, totalItems, addToCart, checkout } = useCart();
 
   return (
