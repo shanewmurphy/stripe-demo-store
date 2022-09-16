@@ -1,8 +1,8 @@
-// import { useState } from "react";
+import { useState } from "react";
 import styles from "./products.module.css";
 import Image from "next/image";
 
-import useCart from "hooks/use-cart";
+import useCart from "@/hooks/use-cart.js";
 
 import products from "@/data/products.json";
 
