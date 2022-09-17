@@ -2,14 +2,9 @@ import { useState } from "react";
 import styles from "./products.module.css";
 import Image from "next/image";
 
-import { initiateCheckout } from "lib/payments";
-import products from "@/data/products.json";
-
 import useCart from "@/hooks/use-cart";
 
-const defaultCart = {
-  products: {},
-};
+import products from "@/data/products.json";
 
 export default function Productlist() {
   const { subtotal, totalItems, addToCart, checkout } = useCart();

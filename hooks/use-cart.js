@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { initiateCheckout } from "lib/payments";
 import products from "@/data/products.json";
+
 const defaultCart = {
   products: {},
 };
