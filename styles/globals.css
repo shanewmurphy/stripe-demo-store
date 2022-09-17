@@ -5,6 +5,99 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
+@font-face {
+  font-family: "icomoon";
+  src: url("/fonts/icomoon.eot?xk8hzz");
+  src: url("/fonts/icomoon.eot?xk8hzz#iefix") format("embedded-opentype"),
+    url("/fonts/icomoon.ttf?xk8hzz") format("truetype"),
+    url("/fonts/icomoon.woff?xk8hzz") format("woff"),
+    url("/fonts/icomoon.svg?xk8hzz#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow_right_icon:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-bag_icon:before {
+  font-size: 2rem;
+  content: "\e901";
+  vertical-align: middle;
+  cursor: pointer;
+}
+.icon-creditcard_icon:before {
+  content: "\e902";
+  color: #5a5c5f;
+}
+.icon-delivery_icon:before {
+  content: "\e903";
+  color: #5a5c5f;
+}
+.icon-email_icon:before {
+  content: "\e904";
+}
+.icon-fb_icon .path1:before {
+  content: "\e905";
+  color: rgb(107, 109, 112);
+}
+.icon-fb_icon .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lindedIn_icon .path1:before {
+  content: "\e907";
+  color: rgb(90, 92, 95);
+}
+.icon-lindedIn_icon .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lindedIn_icon .path3:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lindedIn_icon .path4:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-minus_icon:before {
+  content: "\e90b";
+  color: #6b6d70;
+}
+.icon-plus_icon:before {
+  content: "\e90c";
+  color: #6b6d70;
+}
+.icon-return_icon:before {
+  content: "\e90d";
+  color: #5a5c5f;
+}
+.icon-twitter_icon:before {
+  content: "\e90e";
+  color: #5a5c5f;
+}
 
 a {
   color: inherit;

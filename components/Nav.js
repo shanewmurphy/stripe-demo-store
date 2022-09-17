@@ -1,7 +1,9 @@
 import Link from "next/link";
 import styles from "./nav.module.css";
+import { useCart } from "@/hooks/use-cart";
 
 const Nav = () => {
+  const { subtotal, totalItems, checkout } = useCart();
   return (
     <nav>
       <div>
@@ -26,7 +28,21 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.nav_cart_container}>Cart</div>
+          <div className={styles.nav_cart_container}>
+            <ul>
+              <li>Cart</li>
+              <li class="icon-bag_icon" onClick={checkout}>
+                <span>{totalItems}</span>
+              </li>
+            </ul>
+          </div>
+          {/* <div className={styles.nav_cart_container}>
+            Cart €{subtotal}
+            <p>
+              <span class="icon-bag_icon"></span>
+              {totalItems}
+            </p>
+          </div> */}
         </div>
       </div>
     </nav>

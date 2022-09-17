@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./products.module.css";
 import Image from "next/image";
 
-import useCart from "@/hooks/use-cart";
+import { useCart } from "@/hooks/use-cart";
 
 import products from "@/data/products.json";
 
@@ -39,13 +39,13 @@ export default function Productlist() {
           );
         })}
       </div>
-      <div className={styles.checkout_container}>
+      {/* <div className={styles.checkout_container}>
         Items: {totalItems}
         <br />
         Total Cost: €{subtotal}
         <br />
         <button onClick={checkout}>Check out</button>
-      </div>
+      </div> */}
     </div>
   );
 }

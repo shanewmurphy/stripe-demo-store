@@ -18,7 +18,7 @@ export default function Home() {
           <Hero />
         </div>
         <div className={styles.products_title}>
-          <h2>Trenading Products</h2>
+          <h2>Trending Products</h2>
         </div>
         <div>
           <Products />
