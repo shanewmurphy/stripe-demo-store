@@ -31,9 +31,10 @@ const Nav = () => {
           <div className={styles.nav_cart_container}>
             <ul>
               <li>Cart</li>
-              <li class="icon-bag_icon" onClick={checkout}>
+              <li className={styles.cart_icon} onClick={checkout}>
                 <span>{totalItems}</span>
               </li>
+              {/* <li>{subtotal}</li> */}
             </ul>
           </div>
           {/* <div className={styles.nav_cart_container}>

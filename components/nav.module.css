@@ -35,7 +35,6 @@
 .nav_cart_container li {
   display: flex;
   align-items: center;
-  padding: 0 5px 0 5px;
 }
 .logo_container {
   width: 145px;
@@ -43,4 +42,40 @@
   background-image: url("/logo_B.svg");
   background-repeat: no-repeat;
   vertical-align: middle;
+}
+.cart_icon {
+  display: inline-flex;
+  background-image: url("/icons/bag_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  color: lightcoral;
+}
+.cart_icon:hover {
+  display: inline-flex;
+  background-image: url("/icons/bag_icon_hover.svg");
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+.cart_icon span {
+  display: block;
+  width: 45px;
+  height: 10px;
+  color: lightslategray;
+  text-align: center;
+}
+
+.cart_icon span:hover {
+  display: block;
+  width: 45px;
+  height: 10px;
+  color: lightslategray;
 }
